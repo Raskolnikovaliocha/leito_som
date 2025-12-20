@@ -1,7 +1,7 @@
 streamlit
 numpy
 matplotlib
-librosa
+scipy
 soundfile
 numba
-scipy
+librosa
