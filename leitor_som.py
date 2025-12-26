@@ -74,10 +74,8 @@ if filer is not None:
     with st.spinner("Transcrevendo áudio..."):
         model = carregar_modelo()
         resultado = model.transcribe(
-            y,
-            language="de",   # 🇩🇪 força alemão
-            task="transcribe"
-        )
+        y,
+        task="transcribe")
 
     # ---------- FRASES (SEM ROUND!) ----------
     dados = [{
